@@ -12,7 +12,7 @@ const HeroBanner = () => {
         <h3 className='text-red-600 text-6xl font-extrabold'>Dream Job Now</h3>
     </div>
 
-    <div className='search_bar w-[500px] md:w-[600px] hover:border-3 hover:border-solid hover:border-white transition-colors duration-300 cursor-pointer lg:w-[800px] border border-solid border-pink-400  rounded-full flex justify-between'>
+    <div className='search_bar w-[350px] md:w-[600px] hover:border-3 hover:border-solid hover:border-white transition-colors duration-300 cursor-pointer lg:w-[800px] border border-solid border-pink-400  rounded-full flex justify-between'>
     <div className='flex items-center w-full px-8 py-5'>
         <FontAwesomeIcon icon={faMagnifyingGlass} size='1x' className="text-gray-400 mr-2" />
         <input className='w-full' type="text" placeholder='Search jobs, skills or companies'/>
